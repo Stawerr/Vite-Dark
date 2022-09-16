@@ -22,8 +22,5 @@
 </script>
 
 <style scoped>
-.dark-mode {
-        background-color: black;
-        color: white;
-    }
+
 </style>

@@ -1,6 +1,5 @@
 <template>
-   <button onclick="myFunction()">Toggle dark mode</button>
-
+   <button @click="submit">Toggle dark mode</button>
 </template>
 
 <script>
@@ -14,21 +13,13 @@
             
         },
         methods: {
-            myFunction(){
-                
+            submit(){
+                document.body.classList.toggle('light');
             }
         },
     }
 </script>
 
 <style>
-    .light {
-    background-color: white;
-    color: black;
-    }
 
-    .dark-mode {
-    background-color: black;
-    color: white;
-    }
 </style>
